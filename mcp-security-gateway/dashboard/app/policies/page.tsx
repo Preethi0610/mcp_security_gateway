@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const GATEWAY_URL = "http://localhost:8000";
+const GATEWAY_URL = "https://mcp-security-gateway.onrender.com";
 
 type Policy = {
   id: number;

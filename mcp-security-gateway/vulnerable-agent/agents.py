@@ -15,7 +15,7 @@ if not openapi_key:
 client = OpenAI(api_key=openapi_key)
 MODEL = "gpt-4o-mini"
 
-GATEWAY_URL = "http://localhost:8000/check-tool-call"
+GATEWAY_URL = "https://mcp-security-gateway.onrender.com/check-tool-call"
 
 
 def run_agent(user_message: str, max_turns: int = 5):

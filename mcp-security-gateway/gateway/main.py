@@ -17,7 +17,7 @@ from policy import is_allowed, get_all_policies, set_policy
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=["http://localhost:3000", "https://mcp-security-gateway-gray.vercel.app"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
