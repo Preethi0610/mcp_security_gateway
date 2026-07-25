@@ -1,5 +1,11 @@
+# Python
 .env
 venv/
 agentvenv/
+gate/
 __pycache__/
 *.pyc
+
+# Node / Next.js
+node_modules/
+.next/
