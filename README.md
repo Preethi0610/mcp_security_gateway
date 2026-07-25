@@ -1,10 +1,14 @@
 # MCP Security Gateway
 
-<img width="410" height="536" alt="Screenshot 2026-07-25 at 16 23 45" src="https://github.com/user-attachments/assets/2550f453-8748-4889-8a88-1cafb2c1e46b" />
-<img width="1634" height="737" alt="Screenshot 2026-07-25 at 16 23 16" src="https://github.com/user-attachments/assets/5e6bb6b2-1c5f-409a-819b-e5be6bb2b8bf" />
-<img width="1637" height="805" alt="Screenshot 2026-07-25 at 16 23 29" src="https://github.com/user-attachments/assets/e0274e64-d5fc-4e46-a791-902f347477b8" />
-<img width="1636" height="805" alt="Screenshot 2026-07-25 at 16 22 32" src="https://github.com/user-attachments/assets/ed117a24-14dd-469d-b29f-96076c24c896" />
-
+<img width="1600" height="700" alt="Screenshot 2026-07-25 at 16 23 16" src="https://github.com/user-attachments/assets/5e6bb6b2-1c5f-409a-819b-e5be6bb2b8bf" />
+<img width="1600" height="700" alt="Screenshot 2026-07-25 at 16 23 29" src="https://github.com/user-attachments/assets/e0274e64-d5fc-4e46-a791-902f347477b8" />
+<img width="1600" height="700" alt="Screenshot 2026-07-25 at 16 22 32" src="https://github.com/user-attachments/assets/ed117a24-14dd-469d-b29f-96076c24c896" />
+<table>
+<tr>
+<td width="50%">
+  <img src="https://github.com/user-attachments/assets/2550f453-8748-4889-8a88-1cafb2c1e46b" alt="Diagram" width="100%">
+</td>
+<td width="50%">
 
 A standalone proxy that sits between an AI agent and its tool calls, catching prompt injection, confused-deputy attacks, and credential exfiltration before they ever reach the agent.
 
@@ -15,6 +19,10 @@ Most AI portfolio projects are RAG apps or agent demos. Almost nobody builds the
 ## The problem
 
 When an AI agent calls a tool reads a calendar, opens a file, checks an inbox whatever that tool returns gets fed straight back into the model's context, treated as trustworthy. An attacker doesn't need to talk to your chatbot at all. They just need to plant malicious instructions somewhere your agent will read as part of a normal task a calendar invite, a file, an email. This is called indirect prompt injection, and most agent demos have zero protection against it.
+
+</td>
+</tr>
+</table>
 
 ## The demo
 
