@@ -12,6 +12,15 @@ type AttackResult = {
 
 const ATTACKS = [
   {
+    label: "Simulate Policy-Denied Access",
+    description: "Personal Assistant attempts to read a file after that permission was revoked in Policy Manager -- blocked before the tool even runs.",
+    payload: {
+      agent_name: "personal-assistant",
+      tool_name: "read_file",
+      tool_args: { filename: "notes.txt" },
+    },
+  },
+  {
     label: "Simulate Prompt Injection in Tool Output",
     description: "Reads a poisoned calendar event containing obvious injected instructions.",
     payload: {
