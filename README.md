@@ -61,6 +61,7 @@ Every request passes through five checkpoints:
 3. **Layer 1, pattern match**: fast keyword and pattern scanning on the tool's output.
 4. **Layer 2, LLM classifier**: a second model checks for paraphrased or disguised attacks that slip past pattern matching.
 5. **Log and respond**: the decision is written to the audit log, and either the result or a clear block reason is returned to the agent.
+<img width="5204" height="5435" alt="diagram" src="https://github.com/user-attachments/assets/2a8a9807-d3a3-4c0a-850a-184517a7108c" />
 
 
 ## Tech stack
